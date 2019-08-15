@@ -41,9 +41,14 @@ body {
   margin-top: 100px;
 }
 
-.pageDivide {
+/* .pageDivide {
   padding-top: 85px;
+} */
+
+.topOfPageDivider {
+  padding-top:70px;
 }
+
 .pageDivideContact {
   padding-top: 200px;
 }
