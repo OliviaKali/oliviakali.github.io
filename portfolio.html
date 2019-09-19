@@ -7,8 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Olivia Kalinowski Portfolio</title>
 
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
@@ -19,7 +17,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark nav-color fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="portfolio.html">
+                    <a class="navbar-brand" href="./index.html">
                         <h4>Olivia Kalinowski Portfolio</h4>
                     </a>
                 </div>
@@ -34,17 +32,6 @@
                         <a class="nav-item nav-link" href="./contact.html">Contact</a>
                     </div>
                 </div>
-                <!-- <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul> -->
             </div>
         </nav>
     </header>
@@ -53,18 +40,24 @@
         <section class="main-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-10 work">
+                    <div class="col-sm-8 work">
                         <a class="portfolioLink" href="https://rocknrates.herokuapp.com/">
                             <img class="image imagePortfolio" src="assets/images/rocknRate.PNG" alt="rocknRate" />
                         </a>
                     </div>
 
-                    <div class="col-sm-2 work">
+                    <div class="col-sm-4 work">
                         <h3>RocknRate</h3>
-                        <p>
-                            Music blog that provides users with a unique experience to search their favorite artists
-                            and be able to comment/rate them as well as listen to their songs through the spotify API.
-                        </p>
+                        <ul>
+                            <li>Music blog that provides users with a unique experience to search artists and
+                                comment/rate them as well as listen to their songs through the Spotify API</li>
+                            <li>Built with Spotify API, Bulma, Materialize, Passport, Spotify-Passport, Node, Express,
+                                MySQL</li>
+                            <!-- <li><a class="projectLink" href="https://rocknrates.herokuapp.com">Checkout the Site</a>
+                            </li> -->
+                            <li><a class="projectLink" href="https://github.com/OliviaKali/rocknRate">Checkout the RocknRate Git
+                                    Repo</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -74,117 +67,149 @@
                 <section class="main-section">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-2 work">
-                                <h3>Brewology</h3>
-                                <p>
-                                    An interactive website that allows the user can take a
-                                    personality quiz to find out what beer matches his/her
-                                    personality. Additionally the website, allows the user to search
-                                    for breweries (using the Yelp API) based on the location that
-                                    they input.
-                                </p>
+                            <div class="col-sm-4 work">
+                                <h3>RocknRate with React</h3>
+                                <ul>
+                                    <li>RocknRate revamped as a MERN application</li>
+                                    <li>Built with Spotify API, React, Firebase, Node, Express, MongoDB, Material UI
+                                    </li>
+                                    <!-- <li><a class="projectLink" href="https://rocknrate-react.herokuapp.com/">Checkout
+                                            the Site</a></li> -->
+                                    <li><a class="projectLink"
+                                            href="https://github.com/OliviaKali/RocknRate-React">Checkout the RocknRate-React Git
+                                            Repo</a></li>
+                                </ul>
                             </div>
-                            <div class="col-sm-10 work">
-                                <a class="portfolioLink" href="https://oliviakali.github.io/GP-Brewology/">
-                                    <img class="image imagePortfolio" src="assets/images/Brewology.PNG"
-                                        alt="Brewology Website" />
+
+                            <div class="col-sm-8 work">
+                                <a class="portfolioLink" href="https://rocknrate-react.herokuapp.com/">
+                                    <img class="image imagePortfolio" src="assets/images/RocknRate-React.PNG"
+                                        alt="RocknRate with React Website" />
                                 </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-sm-6 work">
-                            <a class="portfolioLink" href="https://oliviakali.github.io/unit-4-game/">
-                                <img class="image imagePortfolio" src="assets/images/CrystalCollector.PNG"
-                                    alt="Crystal Collector Game" />
+                        <div class="col-sm-8 work">
+                            <a class="portfolioLink" href="https://oliviakali.github.io/GP-Brewology/">
+                                <img class="image imagePortfolio" src="assets/images/Brewology.PNG"
+                                    alt="Brewology Website" />
                             </a>
                         </div>
+                        <div class="col-sm-4 work">
+                            <h3>Brewology</h3>
+                            <ul>
+                                <li>An interactive site that matches users with beer based on results from a personality
+                                    quiz as well as allows users to search for breweries based on location</li>
+                                <li>Built with YELP API, GIPHY API, Bootstrap, Materialize</li>
+                                <!-- <li><a class="projectLink" href="https://oliviakali.github.io/GP-Brewology/">Checkout
+                                        the Site</a></li> -->
+                                <li><a class="projectLink" href="https://github.com/OliviaKali/GP-Brewology">Checkout
+                                        the Brewology Git Repo</a></li>
 
-                        <div class="col-sm-6 work">
-                            <h3>Crystal Collector</h3>
-                            <p>
-                                This game generates a random number from 19 to 120 that the player
-                                has to try to get in order to win the game. Each one of the four
-                                crystals is given a random number between 1 and 12. The player
-                                must click on crystals to try to make their sums add up to equal
-                                the exact total of the random number. Additionally, the game
-                                tracks the player's wins and losses.
-                            </p>
+                            </ul>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="col-sm-6 work">
-                            <h3>Physic Game</h3>
-                            <p>
-                                The player has to guess the random letter generated. They have
-                                a total of nine tries. The page keeps track of the wins,
-                                losses, and letters already guessed.
-                            </p>
-                        </div>
-
-                        <div class="col-sm-6 work">
-                            <a class="portfolioLink" href="https://oliviakali.github.io/Physic-Game/">
-                                <img class="image imagePortfolio" src="assets/images/PhysicGame.PNG"
-                                    alt="Physic Game" />
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6 work">
-
-                            <a class="portfolioLink" href="https://oliviakali.github.io/GiphyAPI/">
-                                <img class="image imagePortfolio" src="assets/images/GifTastic.PNG" alt="GifTastic" />
-                            </a>
-
-                        </div>
-
-                        <div class="col-sm-6 work">
-
-                            <h3>GifTastic</h3>
-                            <p>
-                                A website with the theme of TV shows. There is a list of a few
-                                TV shows that once clicked show the gifs from that TV show
-                                from the Giphy API. Additionally, the user can add a button of
-                                any TV show that they would like and if that button is clicked
-                                on, gifs will appear from that TV show.
-                            </p>
-
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6 work">
-                            <h3>Trivia Game</h3>
-                            <p>
-                                A fun Disney Lyric Trivia Game- the player is asked to answer 5
-                                questions referring to lyrics from songs in Disney movies. The
-                                player is given 2 minutes to try to answer all the questions. Once
-                                the player submits his/her answer or the timer runs out, the
-                                results of the quiz are revealed.
-                            </p>
-                        </div>
-
-                        <div class="col-sm-6 work">
-                            <a class="portfolioLink" href="https://oliviakali.github.io/TriviaGame/">
-                                <img class="image imagePortfolio" src="assets/images/TriviaGame.PNG"
-                                    alt="Trivia Game" />
-                            </a>
-                        </div>
-                    </div>
-                </section>
             </div>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-                crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-                crossorigin="anonymous"></script>
+
+            <div class="row">
+                <div class="col-sm-6 work">
+                    <h3>Clicky Game</h3>
+                    <ul>
+                        <li>Clicky Game is a memory game, where you can't click on the same
+                             picture more than once or the game restarts. The pictures shuffle 
+                             each time a picture is clicked
+                        </li>
+                        <li>Built with React, Bootstrap</li>
+                        <!-- <li><a class="projectLink" href="https://clicky-game091401471.herokuapp.com/">Checkout the
+                                Site</a></li> -->
+                        <li><a class="projectLink" href="https://github.com/OliviaKali/ClickyGame">Checkout the ClickyGame Git
+                                Repo</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 work">
+                    <a class="portfolioLink" href="https://clicky-game091401471.herokuapp.com/">
+                        <img class="image imagePortfolio" src="assets/images/ClickyGame.PNG"
+                            alt="Clicky Game with React" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 work">
+                    <a class="portfolioLink" href="https://notes-taker-app.herokuapp.com">
+                        <img class="image imagePortfolio" src="assets/images/NoteTaker-Notes.PNG" alt="Note Taker" />
+                    </a>
+                </div>
+
+                <div class="col-sm-6 work">
+                    <h3>NoteTaker</h3>
+                    <ul>
+                        <li>Note Taker is an application that allows the user to read, create/save, and delete notes from a MySQL database</li>
+                        <li>Built with MySQL, Bootstrap, Node, Express</li>
+                        <!-- <li><a class="projectLink" href="https://notes-taker-app.herokuapp.com">Checkout the Site</a>
+                        </li> -->
+                        <li><a class="projectLink" href="https://github.com/OliviaKali/NoteTaker">Checkout the NoteTaker Git
+                                Repo</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- <div class="row">
+                    <div class="col-sm-6 work">
+                        <h3>Bamazon</h3>
+                        <ul>
+                            <li>Bamazon</li>
+                            <li>Built with Node...</li>
+                            <li><a class="projectLink" href="">Checkout the
+                                    Site</a></li>
+                            <li><a class="projectLink" href="https://github.com/OliviaKali/Burger">Checkout The-Devoured-Burger Git Repo</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-sm-6 work">
+                        <a class="portfolioLink" href="https://youtu.be/VIHh1b3DWKU">
+                            <img class="image imagePortfolio" src="assets/images/Bamazon.PNG" alt="Bamazon" />
+                        </a>
+                    </div>
+                </div> -->
+
+            <!-- <div class="row">
+                <div class="col-sm-6 work">
+                    <h3>Eat the Burger</h3>
+                    <ul>
+                        <li>Burgers...</li>
+                        <li>Built with Handlebars, Bootstrap, ORM, MySQL, Node, Express</li>
+                        
+                        <li><a class="projectLink" href="https://github.com/OliviaKali/Burger">Checkout Burger Git Repo</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 work">
+                    <a class="portfolioLink" href="https://the-devoured-burger.herokuapp.com/">
+                        <img class="image imagePortfolio" src="assets/images/BurgerApp.PNG" alt="The Devoured Burger" />
+                    </a>
+                </div>
+            </div>
+ -->
+
+    </div>
+    </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
