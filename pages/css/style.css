@@ -21,3 +21,10 @@
   .sidenav a:hover {
     color: #f1f1f1;
   }
+
+  .rightSideOfNavbar {
+    margin-top: 10px;
+    margin-left: 200px; /* Same as the width of the sidenav */
+    /* font-size: 28px; Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
