@@ -29,6 +29,19 @@
     padding: 0px 10px;
   }
 
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    /* margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px; */
+  }
+
+  .resumePDF {
+    padding-top: 20px;
+  }
+
   /* .cardButton {
     text-align: center;
     margin:0 auto;
