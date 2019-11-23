@@ -42,6 +42,12 @@
     padding-top: 20px;
   }
 
+  .nameJob {
+    text-align: center;
+    font-size: 25px;
+    color: #818181;
+  }
+
   /* .cardButton {
     text-align: center;
     margin:0 auto;
