@@ -13,7 +13,7 @@
   .sidenav a {
     padding: 6px 6px 6px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #818181;
     display: block;
   }
@@ -46,6 +46,16 @@
     text-align: center;
     font-size: 25px;
     color: #818181;
+  }
+
+  .navbarImage {
+    /* width: 10px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 100px;
+    border: 2px solid white;
   }
 
   /* .cardButton {
