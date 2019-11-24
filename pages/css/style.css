@@ -58,11 +58,10 @@
     border: 2px solid white;
   }
 
-  /* .cardButton {
-    text-align: center;
-    margin:0 auto;
-  } */
+.siteTitle {
+  color: black;
+}
 
-  /* .siteButton {
-    margin-bottom: 10px;
-  } */
+.siteTitle:hover {
+  color: red;
+}
