@@ -1,0 +1,40 @@
+/* CONTACT */
+/* .mailto {
+  text-decoration: none;
+  color: black;
+}
+
+.mailto:hover{
+  text-decoration: none;
+  color: black;
+} */
+
+.pageDivideContact {
+    padding-top: 150px;
+  }
+  
+  .contactBorder {
+    /* border-radius: 5px;
+    border: 2px solid #69f0ae;
+    width: 100%;
+    text-align: center;
+    padding: 5px; */
+    text-align: center;
+    margin-top: 35px;
+    /* margin-right: auto;
+    margin-left: auto; */
+  }
+  
+  .contactLink {
+    color: #777777;
+    text-decoration: none;
+  }
+  
+  .contactLink:hover {
+    color: #b3b2af;
+    text-decoration: none;
+  }
+  
+  .material-icons {
+    width: 30px;
+  }

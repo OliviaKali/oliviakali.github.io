@@ -1,0 +1,30 @@
+
+/* PORTFOLIO */
+/*Website Images-Links */
+.image {
+    border: black 1px solid;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  
+.imagePortfolio:hover {
+    border: 5px solid #69f0ae;
+  }
+
+.img-certificate {
+    height:200px;
+    width:300px;
+}
+
+.decoration {
+  text-decoration: none;
+  color: black;
+}
+
+.decoration:hover {
+  text-decoration: none;
+  color:white;
+}
