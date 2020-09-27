@@ -1,3 +1,4 @@
+/* Style for every page */
 body {
     background: linear-gradient(to left, #00ced1, #90ee90);
     margin: 0;
@@ -5,11 +6,7 @@ body {
     font-weight: 400;
 }
 
-/* nav {
-    position: fixed;
-    top: 0;
-} */
-
+/* NAVBAR */
 nav li a {
     text-decoration: none;
     text-transform: uppercase;
@@ -27,7 +24,6 @@ nav li a::before {
   height: 5px;
   width: 0%;
   background-color: #444;
-
   transition: all ease-in-out 250ms;
   /* position: absolute; */
 }
@@ -39,84 +35,7 @@ nav li a:hover::before {
 nav li a:hover {
   color: black;
 }
-/* header::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-nav ul {
-   
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    position: relative;
-}
-
-nav li a {
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-nav li a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    width: 0%;
-    background-color: #444;
-    transition: all ease-in-out 250s;
-}
-
-nav li a:hover::before {
-    width:100%;
-}
-
-nav li a:hover {
-    color: black;
-} */
-
-
-
-
-
-/* INDEX */
-.intro {
-      margin: 10%;
-      font-family: 'Work Sans', sans-serif;
-      color: white;
-      font-weight: 500;
-      font-size: 72px;
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 3s;
-      animation-name: fade;
-      animation-duration: 3s;
-    }
-    
-    @-webkit-keyframes fade {
-      from {
-        opacity: 0.4;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-    
-    @keyframes fade {
-      from {
-        opacity: 0.4;
-      }
-      to {
-        opacity: 1;
-      }
-    }
   
-
-
-
-
-
 /* CSS Square Design */
   .box-area {
     /* position: absolute; */
@@ -191,4 +110,37 @@ nav li a:hover {
         transform: translateY(-800px) rotate(360deg);
         opacity: 1;
     }
+}
+
+
+
+/* INDEX */
+.intro {
+  margin: 10%;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 72px;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
