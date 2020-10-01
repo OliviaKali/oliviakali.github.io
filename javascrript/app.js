@@ -1,3 +1,12 @@
+function linkedinOpen() {
+    window.open("https://www.linkedin.com/in/olivia-k-832175123/");
+}
+
+function githubOpen() {
+    window.open("https://github.com/OliviaKali");
+}
+
+
 // // anychart.onDocumentReady(function() {
 
 // //     // set the data
