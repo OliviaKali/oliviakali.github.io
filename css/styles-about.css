@@ -51,6 +51,19 @@
       from, to { border-color: transparent }
       50% { border-color: orange }
     }
+
+    @media only screen and (max-width: 600px) {
+     .learning {
+       font-size: 12px;
+     }
+     .circle-id {
+       margin-top: 10px;
+       margin-bottom: 10px;
+     }
+     /* .whoCenter {
+       text-align: center;
+     } */
+    }
   
       /* @keyframes slidein {
           from {
