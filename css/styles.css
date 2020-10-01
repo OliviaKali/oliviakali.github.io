@@ -6,14 +6,6 @@ body {
     font-weight: 400;
 }
 
-/* @media screen and (min-width: 800px) {
-  body {
-    background-color: lightblue;
-  }
-  .intro {
-    font-size: 30px;
-  }
-} */
 
 /* NAVBAR */
 nav li a {
@@ -151,5 +143,17 @@ nav li a:hover {
   }
   to {
     opacity: 1;
+  }
+}
+
+
+
+@media screen and (max-width: 715px) {
+  body {
+    background-color: lightblue;
+  }
+  .intro {
+    font-size: 50px;
+    margin: 15%;
   }
 }
